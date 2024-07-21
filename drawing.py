@@ -10,8 +10,8 @@ capture.set(4, 720)
 
 detector = handDetector()
 
-brushThickness = 15
-eraserThickness = 100
+brushThickness = 10
+eraserThickness = 50
 
 # Define the colors and their positions
 colors = [(0, 0, 255), (255, 0, 255), (0, 255, 255), (0,0,0)] 
