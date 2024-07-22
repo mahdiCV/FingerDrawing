@@ -40,7 +40,6 @@ class handDetector():
         return self.landmarks
 
     def fingerUp(self):
-
         fingers = []
         if self.landmarks[self.tipId[0]][1] > self.landmarks[self.tipId[0] -1][1]:
             fingers.append(1)
